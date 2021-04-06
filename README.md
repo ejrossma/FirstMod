@@ -1,3 +1,3 @@
-#Built off of Fabric Example Mod
+# Built off of Fabric Example Mod
 
-#Made by Vulgit
+# Made by Vulgit
