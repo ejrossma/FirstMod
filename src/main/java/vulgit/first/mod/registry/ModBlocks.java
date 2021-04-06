@@ -1,0 +1,1 @@
+package vulgit.first.mod.registry;

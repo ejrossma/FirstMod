@@ -1,19 +1,26 @@
 package vulgit.first.mod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import vulgit.first.mod.registry.ModItems;
 
 public class FirstMod implements ModInitializer {
 	
-	public static final Item BAT = new Item(new Item.Settings().group(ItemGroup.COMBAT));
+	
+
+	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
+		new Identifier("firstmod", "general"),	
+		() -> new ItemStack(ModItems.BAT));
 	
 	@Override
 	public void onInitialize() {
 		
-		Registry.register(Registry.ITEM, new Identifier("firstmod", "bat"), BAT);
+		ModItems.registerItems();
 
 	}
 }
