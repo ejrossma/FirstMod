@@ -7,14 +7,15 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:obsidian"
+            "item": "minecraft:stone"
         },
         "O": {
-            "item": "minecraft:planks"
+            "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "firstmod:obsidian_handle",
+        "item": "firstmod:stone_handle",
         "count": 1
-    }
+    },
+    "group": "vulgitmod"
 }

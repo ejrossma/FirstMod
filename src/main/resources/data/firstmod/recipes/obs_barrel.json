@@ -7,11 +7,12 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:planks"
+            "item": "minecraft:obsidian"
         }
     },
     "result": {
-        "item": "firstmod:wooden_barrel",
+        "item": "firstmod:obsidian_barrel",
         "count": 1
-    }
+    },
+    "group": "vulgitmod"
 }

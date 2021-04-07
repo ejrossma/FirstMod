@@ -6,14 +6,15 @@
     ],
     "key": {
         "#": {
-            "item": "firstmod:wooden_barrel"
+            "item": "firstmod:obsidian_barrel"
         },
         "F": {
-            "item": "firstmod:stone_handle"
+            "item": "firstmod:obsidian_handle"
         }
     },
     "result": {
-        "item": "firstmod:wooden_bat",
+        "item": "firstmod:obsidian_bat",
         "count": 1
-    }
+    },
+    "group": "vulgitmod"
 }
