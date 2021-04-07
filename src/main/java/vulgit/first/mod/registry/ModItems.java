@@ -12,10 +12,13 @@ import vulgit.first.mod.tools.materials.ObsidianChunk;
 
 public class ModItems {
 
-    //Items
+    //Bats
     public static final Item WOODEN_BAT = new BatItem(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static ToolItem OBSIDIAN_BAT = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
-    //BlockItems
+    //Parts
+    public static final Item WOODEN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final Item STONE_HANDLE = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final Item OBSIDIAN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("firstmod", "bat"), WOODEN_BAT);

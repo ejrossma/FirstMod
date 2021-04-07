@@ -1,5 +1,8 @@
 {
-    "item.firstmod.bat": "Wooden Bat",
+    "item.firstmod.wooden_bat": "Wooden Bat",
+    "item.firstmod.wooden_barrel": "Wooden Barrel",
+    "item.firstmod.obsidian_barrel": "Wooden Barrel",
+    "item.firstmod.stone_handle": "Stone Handle",
     "item.firstmod.obsidian_bat": "Obsidian Bat",
     "itemGroup.firstmod.general": "Vulgit Mod"
 }

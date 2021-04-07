@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #",
+        "F "
+    ],
+    "key": {
+        "#": {
+            "item": "firstmod:wooden_barrel"
+        },
+        "F": {
+            "item": "firstmod:stone_handle"
+        }
+    },
+    "result": {
+        "item": "firstmod:wooden_bat",
+        "count": 1
+    }
+}
