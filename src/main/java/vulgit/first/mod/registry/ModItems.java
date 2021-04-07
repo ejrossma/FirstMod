@@ -10,7 +10,7 @@ import vulgit.first.mod.FirstMod;
 public class ModItems {
 
     //Items
-    public static final Item BAT = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final Item BAT = new BatItem(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final Item OBSIDIANBAT = new BatItem(new Item.Settings().group(FirstMod.ITEM_GROUP));
     //("obsidian_bat", 0, 800, 6.0F, 6.5F, 15);
     //BlockItems
