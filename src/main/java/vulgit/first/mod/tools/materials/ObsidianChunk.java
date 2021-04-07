@@ -17,7 +17,7 @@ public class ObsidianChunk implements ToolMaterial {
     }
     @Override
     public float getAttackDamage() {
-        return 3.0F;
+        return 6.0F;
     }
     @Override
     public int getMiningLevel() {
@@ -29,6 +29,6 @@ public class ObsidianChunk implements ToolMaterial {
     }
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.POTATO);
+        return Ingredient.ofItems(Items.OBSIDIAN);
     }
 }
