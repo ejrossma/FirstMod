@@ -13,7 +13,7 @@ public class ModItems {
 
     //Items
     public static final Item BAT = new BatItem(new Item.Settings().group(FirstMod.ITEM_GROUP));
-    public static ToolItem OBSIDIANBAT = new SwordItem(ObsidianChunk.INSTANCE, 3, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
+    public static ToolItem OBSIDIANBAT = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
     //BlockItems
 
     public static void registerItems() {
