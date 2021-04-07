@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "firstmod:item/bat"
+        "layer0": "firstmod:item/obsidian_barrel"
     }
 }

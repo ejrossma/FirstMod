@@ -13,7 +13,7 @@ public class FirstMod implements ModInitializer {
 
 	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
 		new Identifier("firstmod", "general"),	
-		() -> new ItemStack(ModItems.BAT));
+		() -> new ItemStack(ModItems.WOODEN_BAT));
 	
 	@Override
 	public void onInitialize() {

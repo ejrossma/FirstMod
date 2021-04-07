@@ -1,4 +1,4 @@
-package vulgit.first.mod;
+package vulgit.first.mod.tools.materials;
 
 
 import net.minecraft.item.Items;
