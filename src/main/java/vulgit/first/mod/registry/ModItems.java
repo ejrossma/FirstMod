@@ -6,6 +6,7 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import vulgit.first.mod.BatItem;
 import vulgit.first.mod.FirstMod;
 import vulgit.first.mod.ObsidianChunk;
 
