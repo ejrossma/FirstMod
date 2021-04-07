@@ -6,6 +6,7 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import vulgit.first.mod.tools.BatItem;
 import vulgit.first.mod.tools.materials.ObsidianChunk;
 
 public class ModItems {
@@ -16,7 +17,7 @@ public class ModItems {
     //BlockItems
 
     public static void registerItems() {
-        Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_bat"), WOODEN_BAT);
-        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat"), OBSIDIAN_BAT);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_bat"), new BatItem(new ObsidianChunk()));
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat"), new BatItem(new ObsidianChunk()));
     }
 }
