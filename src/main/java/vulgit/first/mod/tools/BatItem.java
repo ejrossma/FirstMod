@@ -1,4 +1,4 @@
-package vulgit.first.mod;
+package vulgit.first.mod.tools;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
