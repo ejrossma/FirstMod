@@ -9,7 +9,7 @@
             "item": "firstmod:obsidian_barrel"
         },
         "F": {
-            "item": "firstmod:obsidian_handle"
+            "tag": "firstmod:handles"
         }
     },
     "result": {

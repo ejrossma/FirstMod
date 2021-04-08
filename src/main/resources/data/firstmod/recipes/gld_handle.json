@@ -1,19 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " #",
-        "F "
+        "  #",
+        " # ",
+        "O  "
     ],
     "key": {
         "#": {
-            "item": "firstmod:wooden_barrel"
+            "item": "minecraft:gold_ingot"
         },
-        "F": {
-            "tag": "firstmod:handles"
+        "O": {
+            "tag": "minecraft:planks"
         }
     },
     "result": {
-        "item": "firstmod:wooden_bat",
+        "item": "firstmod:gold_handle",
         "count": 1
     },
     "group": "vulgitmod"

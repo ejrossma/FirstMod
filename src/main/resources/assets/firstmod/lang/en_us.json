@@ -2,8 +2,12 @@
     "item.firstmod.wooden_bat": "Wooden Bat",
     "item.firstmod.wooden_barrel": "Wooden Barrel",
     "item.firstmod.obsidian_barrel": "Wooden Barrel",
+    "item.firstmod.wooden_handle": "Wooden Handle",
     "item.firstmod.stone_handle": "Stone Handle",
+    "item.firstmod.iron_handle": "Iron Handle",
+    "item.firstmod.gold_handle": "Gold Handle",
     "item.firstmod.obsidian_handle": "Obsidian Handle",
+    "item.firstmod.diamond_handle": "Diamond Handle",
     "item.firstmod.obsidian_bat": "Obsidian Bat",
     "itemGroup.firstmod.general": "Vulgit Mod"
 }
