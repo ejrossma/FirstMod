@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #",
+        "F "
+    ],
+    "key": {
+        "#": {
+            "item": "firstmod:wooden_barrel"
+        },
+        "F": {
+            "item": "firstmod:wooden_handle"
+        }
+    },
+    "result": {
+        "item": "firstmod:wooden_bat_w",
+        "count": 1
+    },
+    "group": "vulgitmod"
+}

@@ -9,11 +9,11 @@
             "item": "firstmod:wooden_barrel"
         },
         "F": {
-            "tag": "firstmod:handles"
+            "item": "firstmod:obisdian_handle"
         }
     },
     "result": {
-        "item": "firstmod:wooden_bat",
+        "item": "firstmod:wooden_bat_o",
         "count": 1
     },
     "group": "vulgitmod"
