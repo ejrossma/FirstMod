@@ -12,7 +12,7 @@ import vulgit.first.mod.tools.materials.ObsidianChunk;
 public class ModItems {
 
     //************ Bats ******************
-    //Wooden Barrel
+    //Wooden
         //NEED TO FIX TO MAKE "new BatItem" RATHER THAN "new SwordItem"
         //CAN USE THE WAY WE ADDRESS TO GIVE DIFF STATS TO EACH ONE THROUGH A TEMPLATE RATHER THAN DOING IT FOR EACH ONE INDIVIDUALLY
     public static final ToolItem WOODEN_BAT_W = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
@@ -21,8 +21,16 @@ public class ModItems {
     public static final ToolItem WOODEN_BAT_G = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final ToolItem WOODEN_BAT_O = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final ToolItem WOODEN_BAT_D = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
-    
-    //Obsidian Barrel
+
+    //Stone
+    public static final ToolItem STONE_BAT_W = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final ToolItem STONE_BAT_S = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final ToolItem STONE_BAT_I = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final ToolItem STONE_BAT_G = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final ToolItem STONE_BAT_O = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final ToolItem STONE_BAT_D = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
+
+    //Obsidian
     public static final ToolItem OBSIDIAN_BAT = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
     
     //************ Barrels ******************
@@ -47,6 +55,13 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_bat_g"), new BatItem(new ObsidianChunk()));
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_bat_o"), new BatItem(new ObsidianChunk()));
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_bat_d"), new BatItem(new ObsidianChunk()));
+        //Stone
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_bat_w"), new BatItem(new ObsidianChunk()));
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_bat_s"), new BatItem(new ObsidianChunk()));
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_bat_i"), new BatItem(new ObsidianChunk()));
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_bat_g"), new BatItem(new ObsidianChunk()));
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_bat_o"), new BatItem(new ObsidianChunk()));
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_bat_d"), new BatItem(new ObsidianChunk()));
         //Obsidian
         Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat"), new BatItem(new ObsidianChunk()));
         
