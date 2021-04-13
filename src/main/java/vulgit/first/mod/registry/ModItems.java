@@ -35,6 +35,7 @@ public class ModItems {
     
     //************ Barrels ******************
     public static final Item WOODEN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final Item STONE_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final Item OBSIDIAN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     
     //************ Handles ******************
@@ -67,6 +68,7 @@ public class ModItems {
         
         //************ Barrels ******************
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_barrel"), WOODEN_BARREL);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_barrel"), STONE_BARREL);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_barrel"), OBSIDIAN_BARREL);
         
         //************ Handles ******************
