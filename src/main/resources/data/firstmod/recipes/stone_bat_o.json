@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #",
+        "F "
+    ],
+    "key": {
+        "#": {
+            "item": "firstmod:stone_barrel"
+        },
+        "F": {
+            "item": "firstmod:obsidian_handle"
+        }
+    },
+    "result": {
+        "item": "firstmod:stone_bat_o",
+        "count": 1
+    },
+    "group": "vulgitmod"
+}

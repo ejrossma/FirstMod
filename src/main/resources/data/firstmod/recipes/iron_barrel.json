@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "#",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron"
+        }
+    },
+    "result": {
+        "item": "firstmod:iron_barrel",
+        "count": 1
+    },
+    "group": "vulgitmod"
+}
