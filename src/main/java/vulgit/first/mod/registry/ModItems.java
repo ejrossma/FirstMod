@@ -11,6 +11,9 @@ import vulgit.first.mod.tools.materials.ObsidianChunk;
 
 public class ModItems {
 
+    //Testing
+    public static final Item HATCH = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
+
     //************ Bats ******************
     //Wooden
     public static final ToolItem WOODEN_BAT_W = new BatItem(new ObsidianChunk());
@@ -56,6 +59,9 @@ public class ModItems {
     
 
     public static void registerItems() {
+        //Test
+        //Registry.register(Registry.ITEM, new Identifier("firstmod", "hatch"), HATCH);
+
         //************ Bats ******************
         //Wooden
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_bat_w"), WOODEN_BAT_W);
