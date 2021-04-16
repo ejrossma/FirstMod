@@ -39,6 +39,14 @@ public class ModItems {
     public static final ToolItem IRON_BAT_O = new BatItem(new ObsidianChunk());
     public static final ToolItem IRON_BAT_D = new BatItem(new ObsidianChunk());
 
+    //Gold
+    public static final ToolItem GOLD_BAT_W = new BatItem(new ObsidianChunk());
+    public static final ToolItem GOLD_BAT_S = new BatItem(new ObsidianChunk());
+    public static final ToolItem GOLD_BAT_I = new BatItem(new ObsidianChunk());
+    public static final ToolItem GOLD_BAT_G = new BatItem(new ObsidianChunk());
+    public static final ToolItem GOLD_BAT_O = new BatItem(new ObsidianChunk());
+    public static final ToolItem GOLD_BAT_D = new BatItem(new ObsidianChunk());
+    
     //Obsidian
     //public static final ToolItem OBSIDIAN_BAT = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final ToolItem OBSIDIAN_BAT = new BatItem(new ObsidianChunk());
@@ -47,6 +55,7 @@ public class ModItems {
     public static final Item WOODEN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final Item STONE_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final Item IRON_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final Item GOLD_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final Item OBSIDIAN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     
     //************ Handles ******************
@@ -84,6 +93,13 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("firstmod", "iron_bat_g"), IRON_BAT_G);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "iron_bat_o"), IRON_BAT_O);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "iron_bat_d"), IRON_BAT_D);
+        //Gold
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_w"), GOLD_BAT_W);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_s"), GOLD_BAT_S);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_i"), GOLD_BAT_I);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_g"), GOLD_BAT_G);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_o"), GOLD_BAT_O);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_d"), GOLD_BAT_D);
         //Obsidian
         //Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat"), new BatItem(new ObsidianChunk()));
         Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat"), OBSIDIAN_BAT);
