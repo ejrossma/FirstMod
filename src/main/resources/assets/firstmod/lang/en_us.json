@@ -34,11 +34,19 @@
     "item.firstmod.obsidian_bat_o": "Obsidian Bat",
     "item.firstmod.obsidian_bat_d": "Obsidian Bat",
 
+    "item.firstmod.diamond_bat_w": "Diamond Bat",
+    "item.firstmod.diamond_bat_s": "Diamond Bat",
+    "item.firstmod.diamond_bat_i": "Diamond Bat",
+    "item.firstmod.diamond_bat_g": "Diamond Bat",
+    "item.firstmod.diamond_bat_o": "Diamond Bat",
+    "item.firstmod.diamond_bat_d": "Diamond Bat",
+
     "item.firstmod.wooden_barrel": "Wooden Barrel",
     "item.firstmod.stone_barrel": "Stone Barrel",
     "item.firstmod.iron_barrel": "Iron Barrel",
     "item.firstmod.gold_barrel": "Gold Barrel",
     "item.firstmod.obsidian_barrel": "Obsidian Barrel",
+    "item.firstmod.diamond_barrel": "Diamond Barrel",
 
     "item.firstmod.wooden_handle": "Wooden Handle",
     "item.firstmod.stone_handle": "Stone Handle",

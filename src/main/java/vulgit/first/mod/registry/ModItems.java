@@ -54,6 +54,14 @@ public class ModItems {
     public static final ToolItem OBSIDIAN_BAT_G = new BatItem(new ObsidianChunk());
     public static final ToolItem OBSIDIAN_BAT_O = new BatItem(new ObsidianChunk());
     public static final ToolItem OBSIDIAN_BAT_D = new BatItem(new ObsidianChunk());
+
+    //Diamond
+    public static final ToolItem DIAMOND_BAT_W = new BatItem(new ObsidianChunk());
+    public static final ToolItem DIAMOND_BAT_S = new BatItem(new ObsidianChunk());
+    public static final ToolItem DIAMOND_BAT_I = new BatItem(new ObsidianChunk());
+    public static final ToolItem DIAMOND_BAT_G = new BatItem(new ObsidianChunk());
+    public static final ToolItem DIAMOND_BAT_O = new BatItem(new ObsidianChunk());
+    public static final ToolItem DIAMOND_BAT_D = new BatItem(new ObsidianChunk());
     
     //************ Barrels ******************
     public static final Item WOODEN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
@@ -61,6 +69,7 @@ public class ModItems {
     public static final Item IRON_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final Item GOLD_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     public static final Item OBSIDIAN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
+    public static final Item DIAMOND_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
     
     //************ Handles ******************
     public static final Item WOODEN_HANDLE = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
@@ -111,12 +120,22 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_g"), OBSIDIAN_BAT_G);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_o"), OBSIDIAN_BAT_O);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_d"), OBSIDIAN_BAT_D);
+        //Diamond
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "diamond_bat_w"), DIAMOND_BAT_W);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "diamond_bat_s"), DIAMOND_BAT_S);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "diamond_bat_i"), DIAMOND_BAT_I);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "diamond_bat_g"), DIAMOND_BAT_G);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "diamond_bat_o"), DIAMOND_BAT_O);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "diamond_bat_d"), DIAMOND_BAT_D);
 
         //************ Barrels ******************
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_barrel"), WOODEN_BARREL);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_barrel"), STONE_BARREL);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "iron_barrel"), IRON_BARREL);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_barrel"), GOLD_BARREL);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_barrel"), OBSIDIAN_BARREL);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "diamond_barrel"), DIAMOND_BARREL);
+        
         
         //************ Handles ******************
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_handle"), WOODEN_HANDLE);
