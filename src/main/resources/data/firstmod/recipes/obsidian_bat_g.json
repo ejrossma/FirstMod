@@ -9,11 +9,11 @@
             "item": "firstmod:obsidian_barrel"
         },
         "F": {
-            "tag": "firstmod:handles"
+            "item": "firstmod:gold_handle"
         }
     },
     "result": {
-        "item": "firstmod:obsidian_bat",
+        "item": "firstmod:obsidian_bat_g",
         "count": 1
     },
     "group": "vulgitmod"

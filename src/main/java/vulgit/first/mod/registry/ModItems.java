@@ -48,8 +48,12 @@ public class ModItems {
     public static final ToolItem GOLD_BAT_D = new BatItem(new ObsidianChunk());
     
     //Obsidian
-    //public static final ToolItem OBSIDIAN_BAT = new SwordItem(ObsidianChunk.INSTANCE, 1, -2.4F, new Item.Settings().group(FirstMod.ITEM_GROUP));
-    public static final ToolItem OBSIDIAN_BAT = new BatItem(new ObsidianChunk());
+    public static final ToolItem OBSIDIAN_BAT_W = new BatItem(new ObsidianChunk());
+    public static final ToolItem OBSIDIAN_BAT_S = new BatItem(new ObsidianChunk());
+    public static final ToolItem OBSIDIAN_BAT_I = new BatItem(new ObsidianChunk());
+    public static final ToolItem OBSIDIAN_BAT_G = new BatItem(new ObsidianChunk());
+    public static final ToolItem OBSIDIAN_BAT_O = new BatItem(new ObsidianChunk());
+    public static final ToolItem OBSIDIAN_BAT_D = new BatItem(new ObsidianChunk());
     
     //************ Barrels ******************
     public static final Item WOODEN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
@@ -101,9 +105,13 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_o"), GOLD_BAT_O);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "gold_bat_d"), GOLD_BAT_D);
         //Obsidian
-        //Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat"), new BatItem(new ObsidianChunk()));
-        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat"), OBSIDIAN_BAT);
-        
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_w"), OBSIDIAN_BAT_W);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_s"), OBSIDIAN_BAT_S);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_i"), OBSIDIAN_BAT_I);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_g"), OBSIDIAN_BAT_G);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_o"), OBSIDIAN_BAT_O);
+        Registry.register(Registry.ITEM, new Identifier("firstmod", "obsidian_bat_d"), OBSIDIAN_BAT_D);
+
         //************ Barrels ******************
         Registry.register(Registry.ITEM, new Identifier("firstmod", "wooden_barrel"), WOODEN_BARREL);
         Registry.register(Registry.ITEM, new Identifier("firstmod", "stone_barrel"), STONE_BARREL);
