@@ -16,9 +16,6 @@ import vulgit.first.mod.tools.materials.WoodBatMaterial;
 
 public class ModItems {
 
-    //Testing
-    public static final Item HATCH = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
-
     //************ Bats ******************
     //Wooden
     public static final ToolItem WOODEN_BAT_W = new BatItem(new WoodBatMaterial());
@@ -86,8 +83,6 @@ public class ModItems {
     
 
     public static void registerItems() {
-        //Test
-        //Registry.register(Registry.ITEM, new Identifier("firstmod", "hatch"), HATCH);
 
         //************ Bats ******************
         //Wooden
