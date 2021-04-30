@@ -1,7 +1,7 @@
 package vulgit.first.mod.registry;
 
 import net.minecraft.item.Item;
-//import net.minecraft.item.SwordItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
