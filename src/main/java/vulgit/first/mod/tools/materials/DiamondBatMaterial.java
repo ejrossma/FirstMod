@@ -5,23 +5,23 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ObsidianChunk implements ToolMaterial {
-    public static final ObsidianChunk INSTANCE = new ObsidianChunk();
+public class DiamondBatMaterial implements ToolMaterial {
+    public static final DiamondBatMaterial INSTANCE = new DiamondBatMaterial();
     @Override
     public int getDurability() {
-        return 800;
+        return 1561;
     }
     @Override
     public float getMiningSpeedMultiplier() {
-        return 1.0F;
+        return 8.0F;
     }
     @Override
     public float getAttackDamage() {
-        return 6.0F;
+        return 3.0F;
     }
     @Override
     public int getMiningLevel() {
-        return 1;
+        return 3;
     }
     @Override
     public int getEnchantability() {
@@ -29,6 +29,6 @@ public class ObsidianChunk implements ToolMaterial {
     }
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.OBSIDIAN);
+        return Ingredient.ofItems(Items.DIAMOND);
     }
 }
