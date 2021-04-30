@@ -5,28 +5,56 @@
     "item.firstmod.wooden_bat_g": "Wooden Bat",
     "item.firstmod.wooden_bat_o": "Wooden Bat",
     "item.firstmod.wooden_bat_d": "Wooden Bat",
+
     "item.firstmod.stone_bat_w": "Stone Bat",
     "item.firstmod.stone_bat_s": "Stone Bat",
     "item.firstmod.stone_bat_i": "Stone Bat",
     "item.firstmod.stone_bat_g": "Stone Bat",
     "item.firstmod.stone_bat_o": "Stone Bat",
     "item.firstmod.stone_bat_d": "Stone Bat",
+
     "item.firstmod.iron_bat_w": "Iron Bat",
     "item.firstmod.iron_bat_s": "Iron Bat",
     "item.firstmod.iron_bat_i": "Iron Bat",
     "item.firstmod.iron_bat_g": "Iron Bat",
     "item.firstmod.iron_bat_o": "Iron Bat",
     "item.firstmod.iron_bat_d": "Iron Bat",
+
+    "item.firstmod.gold_bat_w": "Gold Bat",
+    "item.firstmod.gold_bat_s": "Gold Bat",
+    "item.firstmod.gold_bat_i": "Gold Bat",
+    "item.firstmod.gold_bat_g": "Gold Bat",
+    "item.firstmod.gold_bat_o": "Gold Bat",
+    "item.firstmod.gold_bat_d": "Gold Bat",
+
+    "item.firstmod.obsidian_bat_w": "Obsidian Bat",
+    "item.firstmod.obsidian_bat_s": "Obsidian Bat",
+    "item.firstmod.obsidian_bat_i": "Obsidian Bat",
+    "item.firstmod.obsidian_bat_g": "Obsidian Bat",
+    "item.firstmod.obsidian_bat_o": "Obsidian Bat",
+    "item.firstmod.obsidian_bat_d": "Obsidian Bat",
+
+    "item.firstmod.diamond_bat_w": "Diamond Bat",
+    "item.firstmod.diamond_bat_s": "Diamond Bat",
+    "item.firstmod.diamond_bat_i": "Diamond Bat",
+    "item.firstmod.diamond_bat_g": "Diamond Bat",
+    "item.firstmod.diamond_bat_o": "Diamond Bat",
+    "item.firstmod.diamond_bat_d": "Diamond Bat",
+
     "item.firstmod.wooden_barrel": "Wooden Barrel",
     "item.firstmod.stone_barrel": "Stone Barrel",
     "item.firstmod.iron_barrel": "Iron Barrel",
+    "item.firstmod.gold_barrel": "Gold Barrel",
     "item.firstmod.obsidian_barrel": "Obsidian Barrel",
+    "item.firstmod.diamond_barrel": "Diamond Barrel",
+
     "item.firstmod.wooden_handle": "Wooden Handle",
     "item.firstmod.stone_handle": "Stone Handle",
     "item.firstmod.iron_handle": "Iron Handle",
     "item.firstmod.gold_handle": "Gold Handle",
     "item.firstmod.obsidian_handle": "Obsidian Handle",
     "item.firstmod.diamond_handle": "Diamond Handle",
+
     "item.firstmod.obsidian_bat": "Obsidian Bat",
     "itemGroup.firstmod.general": "Vulgit Mod"
 }

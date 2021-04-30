@@ -7,11 +7,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:gold_ingot"
+            "item": "minecraft:diamond"
         }
     },
     "result": {
-        "item": "firstmod:gold_barrel",
+        "item": "firstmod:diamond_barrel",
         "count": 1
     },
     "group": "vulgitmod"
