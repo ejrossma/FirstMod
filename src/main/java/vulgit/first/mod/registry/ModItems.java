@@ -1,13 +1,18 @@
 package vulgit.first.mod.registry;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+//import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import vulgit.first.mod.FirstMod;
 import vulgit.first.mod.tools.BatItem;
-import vulgit.first.mod.tools.materials.ObsidianChunk;
+import vulgit.first.mod.tools.materials.DiamondBatMaterial;
+import vulgit.first.mod.tools.materials.GoldBatMaterial;
+import vulgit.first.mod.tools.materials.IronBatMaterial;
+import vulgit.first.mod.tools.materials.ObsidianBatMaterial;
+import vulgit.first.mod.tools.materials.StoneBatMaterial;
+import vulgit.first.mod.tools.materials.WoodBatMaterial;
 
 public class ModItems {
 
@@ -16,52 +21,52 @@ public class ModItems {
 
     //************ Bats ******************
     //Wooden
-    public static final ToolItem WOODEN_BAT_W = new BatItem(new ObsidianChunk());
-    public static final ToolItem WOODEN_BAT_S = new BatItem(new ObsidianChunk());
-    public static final ToolItem WOODEN_BAT_I = new BatItem(new ObsidianChunk());
-    public static final ToolItem WOODEN_BAT_G = new BatItem(new ObsidianChunk());
-    public static final ToolItem WOODEN_BAT_O = new BatItem(new ObsidianChunk());
-    public static final ToolItem WOODEN_BAT_D = new BatItem(new ObsidianChunk());
+    public static final ToolItem WOODEN_BAT_W = new BatItem(new WoodBatMaterial());
+    public static final ToolItem WOODEN_BAT_S = new BatItem(new WoodBatMaterial());
+    public static final ToolItem WOODEN_BAT_I = new BatItem(new WoodBatMaterial());
+    public static final ToolItem WOODEN_BAT_G = new BatItem(new WoodBatMaterial());
+    public static final ToolItem WOODEN_BAT_O = new BatItem(new WoodBatMaterial());
+    public static final ToolItem WOODEN_BAT_D = new BatItem(new WoodBatMaterial());
 
     //Stone
-    public static final ToolItem STONE_BAT_W = new BatItem(new ObsidianChunk());
-    public static final ToolItem STONE_BAT_S = new BatItem(new ObsidianChunk());
-    public static final ToolItem STONE_BAT_I = new BatItem(new ObsidianChunk());
-    public static final ToolItem STONE_BAT_G = new BatItem(new ObsidianChunk());
-    public static final ToolItem STONE_BAT_O = new BatItem(new ObsidianChunk());
-    public static final ToolItem STONE_BAT_D = new BatItem(new ObsidianChunk());
+    public static final ToolItem STONE_BAT_W = new BatItem(new StoneBatMaterial());
+    public static final ToolItem STONE_BAT_S = new BatItem(new StoneBatMaterial());
+    public static final ToolItem STONE_BAT_I = new BatItem(new StoneBatMaterial());
+    public static final ToolItem STONE_BAT_G = new BatItem(new StoneBatMaterial());
+    public static final ToolItem STONE_BAT_O = new BatItem(new StoneBatMaterial());
+    public static final ToolItem STONE_BAT_D = new BatItem(new StoneBatMaterial());
 
     //Iron
-    public static final ToolItem IRON_BAT_W = new BatItem(new ObsidianChunk());
-    public static final ToolItem IRON_BAT_S = new BatItem(new ObsidianChunk());
-    public static final ToolItem IRON_BAT_I = new BatItem(new ObsidianChunk());
-    public static final ToolItem IRON_BAT_G = new BatItem(new ObsidianChunk());
-    public static final ToolItem IRON_BAT_O = new BatItem(new ObsidianChunk());
-    public static final ToolItem IRON_BAT_D = new BatItem(new ObsidianChunk());
+    public static final ToolItem IRON_BAT_W = new BatItem(new IronBatMaterial());
+    public static final ToolItem IRON_BAT_S = new BatItem(new IronBatMaterial());
+    public static final ToolItem IRON_BAT_I = new BatItem(new IronBatMaterial());
+    public static final ToolItem IRON_BAT_G = new BatItem(new IronBatMaterial());
+    public static final ToolItem IRON_BAT_O = new BatItem(new IronBatMaterial());
+    public static final ToolItem IRON_BAT_D = new BatItem(new IronBatMaterial());
 
     //Gold
-    public static final ToolItem GOLD_BAT_W = new BatItem(new ObsidianChunk());
-    public static final ToolItem GOLD_BAT_S = new BatItem(new ObsidianChunk());
-    public static final ToolItem GOLD_BAT_I = new BatItem(new ObsidianChunk());
-    public static final ToolItem GOLD_BAT_G = new BatItem(new ObsidianChunk());
-    public static final ToolItem GOLD_BAT_O = new BatItem(new ObsidianChunk());
-    public static final ToolItem GOLD_BAT_D = new BatItem(new ObsidianChunk());
+    public static final ToolItem GOLD_BAT_W = new BatItem(new GoldBatMaterial());
+    public static final ToolItem GOLD_BAT_S = new BatItem(new GoldBatMaterial());
+    public static final ToolItem GOLD_BAT_I = new BatItem(new GoldBatMaterial());
+    public static final ToolItem GOLD_BAT_G = new BatItem(new GoldBatMaterial());
+    public static final ToolItem GOLD_BAT_O = new BatItem(new GoldBatMaterial());
+    public static final ToolItem GOLD_BAT_D = new BatItem(new GoldBatMaterial());
     
     //Obsidian
-    public static final ToolItem OBSIDIAN_BAT_W = new BatItem(new ObsidianChunk());
-    public static final ToolItem OBSIDIAN_BAT_S = new BatItem(new ObsidianChunk());
-    public static final ToolItem OBSIDIAN_BAT_I = new BatItem(new ObsidianChunk());
-    public static final ToolItem OBSIDIAN_BAT_G = new BatItem(new ObsidianChunk());
-    public static final ToolItem OBSIDIAN_BAT_O = new BatItem(new ObsidianChunk());
-    public static final ToolItem OBSIDIAN_BAT_D = new BatItem(new ObsidianChunk());
+    public static final ToolItem OBSIDIAN_BAT_W = new BatItem(new ObsidianBatMaterial());
+    public static final ToolItem OBSIDIAN_BAT_S = new BatItem(new ObsidianBatMaterial());
+    public static final ToolItem OBSIDIAN_BAT_I = new BatItem(new ObsidianBatMaterial());
+    public static final ToolItem OBSIDIAN_BAT_G = new BatItem(new ObsidianBatMaterial());
+    public static final ToolItem OBSIDIAN_BAT_O = new BatItem(new ObsidianBatMaterial());
+    public static final ToolItem OBSIDIAN_BAT_D = new BatItem(new ObsidianBatMaterial());
 
     //Diamond
-    public static final ToolItem DIAMOND_BAT_W = new BatItem(new ObsidianChunk());
-    public static final ToolItem DIAMOND_BAT_S = new BatItem(new ObsidianChunk());
-    public static final ToolItem DIAMOND_BAT_I = new BatItem(new ObsidianChunk());
-    public static final ToolItem DIAMOND_BAT_G = new BatItem(new ObsidianChunk());
-    public static final ToolItem DIAMOND_BAT_O = new BatItem(new ObsidianChunk());
-    public static final ToolItem DIAMOND_BAT_D = new BatItem(new ObsidianChunk());
+    public static final ToolItem DIAMOND_BAT_W = new BatItem(new DiamondBatMaterial());
+    public static final ToolItem DIAMOND_BAT_S = new BatItem(new DiamondBatMaterial());
+    public static final ToolItem DIAMOND_BAT_I = new BatItem(new DiamondBatMaterial());
+    public static final ToolItem DIAMOND_BAT_G = new BatItem(new DiamondBatMaterial());
+    public static final ToolItem DIAMOND_BAT_O = new BatItem(new DiamondBatMaterial());
+    public static final ToolItem DIAMOND_BAT_D = new BatItem(new DiamondBatMaterial());
     
     //************ Barrels ******************
     public static final Item WOODEN_BARREL = new Item(new Item.Settings().group(FirstMod.ITEM_GROUP));
